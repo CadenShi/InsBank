@@ -27,7 +27,7 @@ https://huggingface.co/hkust-nlp/deita-quality-scorer
 3. Follow the instructions to install [**AlpacaEval**](https://github.com/tatsu-lab/alpaca_eval)  to run AlpacaEval evaluation
 4. Follow the instructions to install [**lm-evaluation-harness**](https://github.com/EleutherAI/lm-evaluation-harness) to run IFEval prediction
 
-⚠️: There may be conflicts between different libraries. AlpacaEval, MT-Bench, and LLaMA-Factory are compatible with each other, but lm-evaluation-harness used with vllm can conflict with LLaMA-Factory. We construct a separate environment for lm-evaluation-harness.
+⚠️ There may be conflicts between different libraries. AlpacaEval, MT-Bench, and LLaMA-Factory are compatible with each other, but lm-evaluation-harness used with vllm can conflict with LLaMA-Factory. We construct a separate environment for lm-evaluation-harness.
 
 ## Run Scrips
 
