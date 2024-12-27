@@ -31,14 +31,14 @@ https://huggingface.co/hkust-nlp/deita-quality-scorer
 
 ## Run Scrips
 
-1. `pibe.sh`: To run pibe - our data selection process
-2. `train_sft`: To run instruction tuning
-3. `predict.sh`: To run model prediction for AlpacaEval and Prediction. The [**AlpacaEval dataset**](https://huggingface.co/datasets/tatsu-lab/alpaca_eval/blob/main/alpaca_eval.json) should be added to llamafactory before run this scrip. Please refer to [**LLaMA-Factory**](https://github.com/hiyouga/LLaMA-Factory/tree/main) for checking the details about how to use your custom dataset.
-4. `ifeval.sh`: Run run ifeval evaluation
-5. For MT-Bench annotation and AlpacaEVal annotation, please refer to the instruction of [**MT-Bench**](https://github.com/lm-sys/FastChat/tree/main/fastchat/llm_judge) and [**AlpacaEval**](https://github.com/tatsu-lab/alpaca_eval).
-
 scrips/ \
 |-- ifeval.sh \
 |-- predict.sh \
 |-- pibe.sh \
 `-- train_sft.sh
+
+1. `pibe.sh`: To run pibe - our data selection process
+2. `train_sft`: To run instruction tuning
+3. `predict.sh`: To run model prediction for AlpacaEval and Prediction. The [**AlpacaEval dataset**](https://huggingface.co/datasets/tatsu-lab/alpaca_eval/blob/main/alpaca_eval.json) should be added to llamafactory before run this scrip. Please refer to [**LLaMA-Factory**](https://github.com/hiyouga/LLaMA-Factory/tree/main) for checking the details about how to use your custom dataset.
+4. `ifeval.sh`: Run run ifeval evaluation
+5. For MT-Bench annotation and AlpacaEVal annotation, please refer to the instruction of [**MT-Bench**](https://github.com/lm-sys/FastChat/tree/main/fastchat/llm_judge) and [**AlpacaEval**](https://github.com/tatsu-lab/alpaca_eval).
